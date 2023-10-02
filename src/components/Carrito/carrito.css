@@ -1,0 +1,49 @@
+.carritoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .carritoRender {
+    display: flex;
+    align-items: center;
+    background: #ededed;
+    padding: 10px;
+  }
+  
+  .carritoImagen img {
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  .carritoInfo {
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .cantidad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .cantidad button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .precio {
+    margin-left: 10px;
+  }
+  
+.carritoTotal{
+    position: absolute;
+    right: 0;
+    margin: 20px;
+}
+  

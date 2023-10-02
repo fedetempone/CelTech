@@ -1,0 +1,21 @@
+[{
+    "id": 1,
+    "name":"Samsung S22 Ultra",
+    "descripcion": "Te presentamos el Samsung Galaxy S22 Ultra con un procesador Octa-Core (2.99GHz,2.4GHz,1.7GHz) para que estés al día con todas las aplicaciones y juegos de última generación. Descubrí todas las posibilidades para tus fotos, tanto de día como de noche, con la cámara de 108+10+12+10 MP. Memoria interna de 256 GB.",
+    "precio": "379999",
+    "img": "https://i.ibb.co/mCRkJpj/samsung.jpg"
+},
+{
+    "id": 2,
+    "name":"Iphone 14 Pro Max",
+    "descripcion": "El iPhone 14 Pro Max te permite captar detalles increíbles gracias a su cámara gran angular de 48 MP. Además, trae la Dynamic Island y una pantalla siempre activa, para que puedas interactuar con tu iPhone de una forma completamente nueva. Y viene con Detección de Choques(1), una funcionalidad de seguridad que pide ayuda cuando no estás en condiciones de hacerlo.",
+    "precio": "1199999",
+    "img": "https://i.ibb.co/mJ9qvQ4/iphone.png"
+},
+{
+    "id": 3,
+    "name":"Motorola Edge 40 Pro con control Remoto Quartz Black",
+    "descripcion": "El motorola edge 40 pro viene equipado con el último procesador de Qualcomm, Snapdragon 8 Gen 2, que incluye una CPU con un rendimiento un 35% más rápido y un 40% más de eficacia energética, y una GPU con un rendimiento un 25% superior en comparación con su predecesor. Ademas cuenta con 12gb de RAM LPDDR5X y UFS 4.0.",
+    "precio": "540299",
+    "img": "https://i.ibb.co/bvFLhvD/motorolaedge.png"
+}]

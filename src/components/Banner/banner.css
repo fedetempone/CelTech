@@ -1,0 +1,22 @@
+.container-banner{
+    position: relative;
+}
+
+.container-banner img{
+    max-width: 100%;
+    height: auto;
+    opacity: 0.9;
+}
+
+.container-banner h2{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+    text-shadow: 1px 1px 2px #000000;
+    font-weight: bold;
+    z-index: 1;
+    color: white;
+}
