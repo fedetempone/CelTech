@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/CelTech/static/css/main.31d6cfe0.css",
+    "main.js": "/CelTech/static/js/main.73487a85.js",
+    "index.html": "/CelTech/index.html",
+    "main.73487a85.js.map": "/CelTech/static/js/main.73487a85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.73487a85.js"
+  ]
+}
