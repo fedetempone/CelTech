@@ -3,7 +3,7 @@
 }
 
 .container-banner img {
-    max-width: 100%;
+    width: 100vw;
     height: auto;
     opacity: 0.9;
 }

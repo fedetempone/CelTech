@@ -1,5 +1,7 @@
 import { useContext } from "react";
 import { dataContext } from "../Context/DataContext";
+import { useNavigate } from "react-router-dom";
+
 
 const formatearPrecio = (precio) => {
   return precio.toLocaleString("es-AR", {
@@ -11,6 +13,7 @@ const formatearPrecio = (precio) => {
 };
 
 const CarritoComprasTotales = () => {
+  const navigate = useNavigate();
   const { carrito } = useContext(dataContext);
   const total = carrito.reduce(
     (acumulador, producto) => acumulador + producto.precio * producto.cantidad,
@@ -18,6 +21,7 @@ const CarritoComprasTotales = () => {
   );
   const handleCompraClick = () => {
     alert("¡Compra realizada con éxito!");
+    navigate("/");
   };
 
   if (total === 0) {

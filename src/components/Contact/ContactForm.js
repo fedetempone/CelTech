@@ -67,7 +67,9 @@ const ContactForm = () => {
             </button>
         </form>
         </div>
-        <Footer/>
+        <div className="footerRenderContainer">
+          <Footer/>
+        </div>
     </>
   );
 };

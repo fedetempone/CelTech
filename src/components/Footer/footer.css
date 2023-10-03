@@ -1,6 +1,8 @@
 footer {
     background: #333133;
     width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 .footerContainer {
@@ -11,6 +13,12 @@ footer {
     align-items: center;
     color: white;
     text-align: center;
+}
+
+.footerRenderContainer{
+    display: flex;
+    flex-direction: column;
+    min-height: 23vh;
 }
 
 .logoFooter img {
