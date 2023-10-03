@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CelTech/static/css/main.0abd4258.css",
-    "main.js": "/CelTech/static/js/main.05718802.js",
+    "main.css": "/CelTech/static/css/main.790a952b.css",
+    "main.js": "/CelTech/static/js/main.2dd68887.js",
     "static/media/banner3.jpg": "/CelTech/static/media/banner3.c4a4f52032d86dc844ea.jpg",
     "static/media/cart.png": "/CelTech/static/media/cart.6e4dd11b01fd84529a1c.png",
     "index.html": "/CelTech/index.html",
-    "main.0abd4258.css.map": "/CelTech/static/css/main.0abd4258.css.map",
-    "main.05718802.js.map": "/CelTech/static/js/main.05718802.js.map"
+    "main.790a952b.css.map": "/CelTech/static/css/main.790a952b.css.map",
+    "main.2dd68887.js.map": "/CelTech/static/js/main.2dd68887.js.map"
   },
   "entrypoints": [
-    "static/css/main.0abd4258.css",
-    "static/js/main.05718802.js"
+    "static/css/main.790a952b.css",
+    "static/js/main.2dd68887.js"
   ]
 }
