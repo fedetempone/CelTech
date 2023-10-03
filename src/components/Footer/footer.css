@@ -1,0 +1,28 @@
+footer {
+    background: #333133;
+    width: 100%;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.logoFooter img {
+    height: 120px;
+}
+
+@media (max-width: 500px) {
+    .footerContainer {
+        flex-direction: column;
+    }
+
+    .logoFooter img {
+        height: 80px;
+    }
+}

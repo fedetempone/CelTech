@@ -1,13 +1,12 @@
 import { useContext } from "react";
 import Navbar from "../NavBar/Navbar";
 import { dataContext } from "../Context/DataContext";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import "./carrito.css";
 
-// Función para formatear el precio con numeral.js
 function formatearPrecio(precio) {
-  // Redondear el precio a dos decimales
   const precioRedondeado = Math.round(precio * 100) / 100;
-  // Formatear el precio con separadores de miles y dos decimales
   return precioRedondeado.toLocaleString("es-AR", {
     style: "currency",
     currency: "ARS",
@@ -79,10 +78,10 @@ const CarritoRender = () => {
               </div>
             </div>
             <div className="precio">
+              <div className="eliminar">
+                <FontAwesomeIcon icon={faTrash} onClick={() => eliminarProducto(producto)} />
+              </div>
               <h5 className="price">{formatearPrecio(producto.precio * producto.cantidad)}</h5>
-            </div>
-            <div className="eliminar">
-              <button onClick={() => eliminarProducto(producto)}>Eliminar</button>
             </div>
           </div>
         ))}

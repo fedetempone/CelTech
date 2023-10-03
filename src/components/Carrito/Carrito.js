@@ -2,12 +2,12 @@ import CarritoRender from "./CarritoRender";
 import CarritoComprasTotales from "./CarritoComprasTotales";
 
 function Carrito() {
-    return(
+  return (
     <>
-     <CarritoRender/>
-     <CarritoComprasTotales/>
+      <CarritoRender />
+      <CarritoComprasTotales />
     </>
-    );
-  };
-  
-  export default Carrito;
+  );
+};
+
+export default Carrito;

@@ -1,14 +1,14 @@
-.container-banner{
+.container-banner {
     position: relative;
 }
 
-.container-banner img{
+.container-banner img {
     max-width: 100%;
     height: auto;
     opacity: 0.9;
 }
 
-.container-banner h2{
+.container-banner h2 {
     position: absolute;
     top: 40%;
     text-align: center;

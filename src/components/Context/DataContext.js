@@ -1,10 +1,10 @@
 import { createContext, useState } from "react";
-import productosData from "../../productos.json"; // Ruta relativa al archivo JSON
+import productosData from "../../productos.json";
 
 export const dataContext = createContext();
 
 const DataProvider = ({ children }) => {
-    const [datos, setDatos] = useState(productosData);
+    const [datos] = useState(productosData); 
     const [carrito, setCarrito] = useState([]);
     
     return (
@@ -14,5 +14,6 @@ const DataProvider = ({ children }) => {
     );
 }
 
-export default DataProvider;
+export default DataProvider; 
+
 

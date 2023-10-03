@@ -1,49 +1,90 @@
 .carritoContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .carritoRender {
-    display: flex;
-    align-items: center;
-    background: #ededed;
-    padding: 10px;
-  }
-  
-  .carritoImagen img {
-    height: 100px;
-    width: 100px;
-    margin-right: 10px;
-  }
-  
-  .carritoInfo {
-    text-align: center;
-    flex-grow: 1;
-  }
-  
-  .cantidad {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  .cantidad button {
-    padding: 5px 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .precio {
-    margin-left: 10px;
-  }
-  
-.carritoTotal{
-    position: absolute;
-    right: 0;
-    margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-  
+
+.carritoRender {
+  display: flex;
+  align-items: center;
+  background: #ededed;
+  padding: 10px;
+}
+
+.carritoImagen img {
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.carritoInfo {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.cantidad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.cantidad input {
+  width: 4%;
+  text-align: center;
+}
+
+.cantidad button {
+  padding: 2px 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.precio {
+  margin-left: 10px;
+}
+
+.carritoTotal {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+}
+
+.eliminar {
+  text-align: center;
+  cursor: pointer;
+}
+
+.comprar{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.css-button-shadow-border--sky {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  background: #4433ff;
+}
+.css-button-shadow-border--sky:hover {
+  background-color: #3a86ff;
+}
+.css-button-shadow-border--sky:active {
+  top: 2px;
+}
