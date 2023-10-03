@@ -1,3 +1,25 @@
+# eCommerce en React
+
+![React](https://img.shields.io/badge/React-16.13.1-blue.svg) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg) ![HTML](https://img.shields.io/badge/HTML-5-orange.svg) ![CSS](https://img.shields.io/badge/CSS-3-green.svg) ![Git](https://img.shields.io/badge/Git-2.33.0-red.svg)
+
+Este proyecto es un eCommerce desarrollado en React, utilizando las siguientes tecnologías: JavaScript, HTML, CSS y control de versiones con Git.
+
+## Funcionalidades
+
+- Explora una amplia gama de productos disponibles en la tienda.
+- Agrega productos al carrito de compras.
+- Realiza un seguimiento de los productos en tu carrito.
+- Procede al proceso de compra y pago de productos.
+- Gestiona tu cuenta de usuario y tus datos personales.
+
+## Instalación
+
+1. Clona este repositorio en tu máquina local:
+
+   ```bash
+   git clone https://github.com/tuusuario/tu-proyecto.git
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
